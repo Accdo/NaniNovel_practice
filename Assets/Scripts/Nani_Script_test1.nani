@@ -1,0 +1,40 @@
+@back Main time:0.5
+
+@char Dajin look:right pos:23,28 scale:0.5 time:0
+대진 : 하오~
+
+@char Garim look:left pos:73,28 scale:0.5 time:0
+계림 : 하오!
+
+대진 : 잘 지내누?
+계림 : 고럼~
+
+대진 : 밥 뭐 먹었니?
+계림 : 피자 먹었어!
+
+대진 : 무슨 피자 먹었어?
+계림 : 피자스쿨 고구마호박 피자 먹었어~
+
+대진 : 고구마 호박?
+계림 : 응! 고구마 호박
+
+@choice "고구마 호박 맛있지~" goto:.Happy
+@choice "고구마가 아니라 호박 고구마야!" goto:.Angry1
+@stop
+
+#Angry1
+계림 : 그래~ 고구마 호박!
+
+@choice "고구마 호박 맛있지~" goto:.Happy
+@choice "고구마가 아니라 호박 고구마야!" goto:.Angry2
+@stop
+
+#Angry2
+계림 : 호! 박! 고! 구! 마!
+계림 : 호박 고구마!
+@stop
+
+#Happy
+계림 : 고럼~ 너는 뭐 먹었어?
+대진 : 푸라닭 먹었어!
+@stop
