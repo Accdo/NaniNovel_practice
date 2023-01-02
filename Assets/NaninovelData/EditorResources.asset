@@ -171,6 +171,12 @@ MonoBehaviour:
     - name: Nani_Script_test1
       pathPrefix: Scripts
       guid: 2414f4ecf3eef6c4da6555630e0386c9
+    - name: Nani_Script_test2
+      pathPrefix: Scripts
+      guid: f59a5b1710937a54ab492ab277031656
+    - name: test
+      pathPrefix: Scripts
+      guid: 2196aa1a4284d414d97b07d253bfdf1a
   - Id: Characters/ef194340-b046-4e30-9df1-47a483ce8932
     Resources:
     - name: Default
@@ -197,3 +203,7 @@ MonoBehaviour:
     - name: default
       pathPrefix: Characters/Garim
       guid: d56c3e238ba7a2745ab668a65808d484
+  - Id: Audio
+    Resources: []
+  - Id: Movies
+    Resources: []
