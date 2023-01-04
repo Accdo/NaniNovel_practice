@@ -279,6 +279,10 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;test&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;Default&lt;/Path&gt;
         &lt;Type&gt;Characters/Master&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -314,6 +318,10 @@
       &lt;/Constant&gt;
       &lt;Constant&gt;
         &lt;Name&gt;Labels/Nani_Script_test2&lt;/Name&gt;
+        &lt;Values /&gt;
+      &lt;/Constant&gt;
+      &lt;Constant&gt;
+        &lt;Name&gt;Labels/test&lt;/Name&gt;
         &lt;Values /&gt;
       &lt;/Constant&gt;
     &lt;/Constants&gt;

@@ -1,0 +1,6 @@
+@back Desert time:0.5
+
+@char fox pos:80
+
+fox: Hello!
+@stop

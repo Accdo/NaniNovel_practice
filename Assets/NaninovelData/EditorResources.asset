@@ -171,28 +171,23 @@ MonoBehaviour:
     - name: Nani_Script_test1
       pathPrefix: Scripts
       guid: 2414f4ecf3eef6c4da6555630e0386c9
-    - name: Nani_Script_test2
-      pathPrefix: Scripts
-      guid: f59a5b1710937a54ab492ab277031656
     - name: test
       pathPrefix: Scripts
       guid: 2196aa1a4284d414d97b07d253bfdf1a
-  - Id: Characters/ef194340-b046-4e30-9df1-47a483ce8932
-    Resources:
-    - name: Default
-      pathPrefix: Characters/Master
-      guid: 8a9ef566acb47df4dbe228a7c11a273f
-    - name: Black
-      pathPrefix: Characters/Master
-      guid: 4a7a68d9e6cbd6947924b4632cddacc8
+    - name: Nani_Practice
+      pathPrefix: Scripts
+      guid: 656c22bb843c3104697184260eefae38
   - Id: Backgrounds/45fb4848-8bc6-41c4-b08f-9fdf0bfea448
     Resources:
     - name: Main
       pathPrefix: Backgrounds/MainBackground
       guid: 4783770b517c74840909422be95f2e9d
-    - name: Cut1
+    - name: Desert
       pathPrefix: Backgrounds/MainBackground
-      guid: dcecc9776d03f4549bfa53b6ca07225b
+      guid: 1e62a56f4388fe742946d92351f488b2
+    - name: Forest
+      pathPrefix: Backgrounds/MainBackground
+      guid: ff78cfd5598639440bdf3b8ba11e935f
   - Id: Characters/7b0457c7-2246-4d27-a279-c8a39fc58496
     Resources:
     - name: default
@@ -207,3 +202,40 @@ MonoBehaviour:
     Resources: []
   - Id: Movies
     Resources: []
+  - Id: Characters/ca34f611-cfb3-486f-8ce7-ff5f949c5f8a
+    Resources:
+    - name: default
+      pathPrefix: Characters/fox
+      guid: 10011d48b8e1be34c9bce9f96c57d056
+    - name: Happy
+      pathPrefix: Characters/fox
+      guid: bb90d8a75c7d7a4468bc8c09d31013fa
+    - name: Pain
+      pathPrefix: Characters/fox
+      guid: efdd2e8d86d44454a88dd9c3ed8d9c87
+    - name: Surprise
+      pathPrefix: Characters/fox
+      guid: cedbc7bba86a9ff4ab3e52b3965fa199
+    - name: Confidence
+      pathPrefix: Characters/fox
+      guid: 39ceb81dcfef83744b6662f199acaff4
+  - Id: Characters/924c7a01-e15d-4ede-97a9-68c04d984cd8
+    Resources:
+    - name: Default
+      pathPrefix: Characters/miyo
+      guid: 78b796720ae8b7e4cafb796c89a0b099
+    - name: Happy
+      pathPrefix: Characters/miyo
+      guid: cabc1fd37f331db43849558c3c30103e
+    - name: Pain
+      pathPrefix: Characters/miyo
+      guid: 7621e7a8b74ba504b847e8f7c7b7979e
+    - name: Surprise
+      pathPrefix: Characters/miyo
+      guid: 6b697f67111b5e245a7a197914b8a6a6
+    - name: Confidence
+      pathPrefix: Characters/miyo
+      guid: 4c868c4db6ff4a348a07593de3241ce6
+    - name: Angry
+      pathPrefix: Characters/miyo
+      guid: 1d47005ab5d4a3346996fed0e977954d
