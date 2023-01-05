@@ -138,10 +138,10 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: 
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
-      MessageColor: {r: 1, g: 1, b: 1, a: 1}
+      DisplayName: "\uACC4\uB9BC"
+      UseCharacterColor: 1
+      NameColor: {r: 0.78431374, g: 1, b: 1, a: 1}
+      MessageColor: {r: 0.78431374, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
       SpeakingPose: 
@@ -163,7 +163,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: ca34f611-cfb3-486f-8ce7-ff5f949c5f8a
+      guid: 6545ed43-58f2-406c-8aaa-8c8c65bd2d6a
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0}
@@ -180,7 +180,7 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: Fox
+      DisplayName: "\uC5EC\uC6B0"
       UseCharacterColor: 1
       NameColor: {r: 1, g: 1, b: 0.78431374, a: 1}
       MessageColor: {r: 1, g: 1, b: 0.78431374, a: 1}
@@ -205,7 +205,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 924c7a01-e15d-4ede-97a9-68c04d984cd8
+      guid: ff711edf-15ce-4c0a-9d51-0097044b79ce
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0}
@@ -222,10 +222,10 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: Miyo
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
-      MessageColor: {r: 1, g: 1, b: 1, a: 1}
+      DisplayName: "\uBBF8\uC694"
+      UseCharacterColor: 1
+      NameColor: {r: 1, g: 0.78431374, b: 1, a: 1}
+      MessageColor: {r: 1, g: 0.78431374, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
       SpeakingPose: 

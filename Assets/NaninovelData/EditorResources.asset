@@ -171,17 +171,17 @@ MonoBehaviour:
     - name: Nani_Script_test1
       pathPrefix: Scripts
       guid: 2414f4ecf3eef6c4da6555630e0386c9
-    - name: test
-      pathPrefix: Scripts
-      guid: 2196aa1a4284d414d97b07d253bfdf1a
     - name: Nani_Practice
       pathPrefix: Scripts
       guid: 656c22bb843c3104697184260eefae38
+    - name: Practice
+      pathPrefix: Scripts
+      guid: 024b43f7ca8407d479ea45fbcf327751
   - Id: Backgrounds/45fb4848-8bc6-41c4-b08f-9fdf0bfea448
     Resources:
-    - name: Main
+    - name: DemoTitle
       pathPrefix: Backgrounds/MainBackground
-      guid: 4783770b517c74840909422be95f2e9d
+      guid: e4562e550f1f157469cf0659b4dcca7d
     - name: Desert
       pathPrefix: Backgrounds/MainBackground
       guid: 1e62a56f4388fe742946d92351f488b2
@@ -202,9 +202,9 @@ MonoBehaviour:
     Resources: []
   - Id: Movies
     Resources: []
-  - Id: Characters/ca34f611-cfb3-486f-8ce7-ff5f949c5f8a
+  - Id: Characters/6545ed43-58f2-406c-8aaa-8c8c65bd2d6a
     Resources:
-    - name: default
+    - name: Default
       pathPrefix: Characters/fox
       guid: 10011d48b8e1be34c9bce9f96c57d056
     - name: Happy
@@ -219,7 +219,7 @@ MonoBehaviour:
     - name: Confidence
       pathPrefix: Characters/fox
       guid: 39ceb81dcfef83744b6662f199acaff4
-  - Id: Characters/924c7a01-e15d-4ede-97a9-68c04d984cd8
+  - Id: Characters/ff711edf-15ce-4c0a-9d51-0097044b79ce
     Resources:
     - name: Default
       pathPrefix: Characters/miyo
@@ -233,9 +233,12 @@ MonoBehaviour:
     - name: Surprise
       pathPrefix: Characters/miyo
       guid: 6b697f67111b5e245a7a197914b8a6a6
-    - name: Confidence
-      pathPrefix: Characters/miyo
-      guid: 4c868c4db6ff4a348a07593de3241ce6
     - name: Angry
       pathPrefix: Characters/miyo
       guid: 1d47005ab5d4a3346996fed0e977954d
+    - name: Confidence
+      pathPrefix: Characters/miyo
+      guid: 4c868c4db6ff4a348a07593de3241ce6
+    - name: Tail
+      pathPrefix: Characters/miyo
+      guid: 4949f42eaa1cf204fae11fbc517b9d6e
