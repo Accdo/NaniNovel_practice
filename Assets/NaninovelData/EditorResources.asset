@@ -171,9 +171,6 @@ MonoBehaviour:
     - name: Nani_Script_test1
       pathPrefix: Scripts
       guid: 2414f4ecf3eef6c4da6555630e0386c9
-    - name: Nani_Practice
-      pathPrefix: Scripts
-      guid: 656c22bb843c3104697184260eefae38
     - name: Practice
       pathPrefix: Scripts
       guid: 024b43f7ca8407d479ea45fbcf327751
@@ -199,7 +196,13 @@ MonoBehaviour:
       pathPrefix: Characters/Garim
       guid: d56c3e238ba7a2745ab668a65808d484
   - Id: Audio
-    Resources: []
+    Resources:
+    - name: GrandFather
+      pathPrefix: Audio
+      guid: 0e1a2588163638b45ba983c66753e63f
+    - name: Jump
+      pathPrefix: Audio
+      guid: c2bfb7a3b65621d42bec7fb6c6772bca
   - Id: Movies
     Resources: []
   - Id: Characters/6545ed43-58f2-406c-8aaa-8c8c65bd2d6a

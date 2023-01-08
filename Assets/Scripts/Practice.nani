@@ -1,27 +1,51 @@
-@back Desert
+@bgm GrandFather
+@back Desert time:1.0
 
-@char fox
+@char fox time:0.5
 fox: 안녕! 나는 여우야!
 
-@char fox.Happy
+@char fox.Happy time:0.5
 fox: 만나서 반가워~
 
 @char fox.Surprise
 fox: 뭐?[i] 나니노벨을 알려달라고?
+
 @char fox.Default
 fox: 나니노벨을 잘 아는 친구를 소개해줄게.
 
 @char fox pos:80
 
+@sfx Jump
 @char miyo look:right pos:30
 miyo: 안녕! 나는 미요라고 해!
 
 miyo: 나니노벨의 기본적인 명령어를 알려줄게.
 miyo: "@back" 명령어는 배경그림 보여주고
-
 miyo: "@char" 명령어는 캐릭터를 인게임에 보여주는 명령어야.
 
 fox: 맞아~
-fox: 그리고 "@char 캐릭터이름.그림이름"를 치면 캐릭터 그림이 변경할 수 있고 
+fox: 그리고 "@char 캐릭터이름.그림이름"를 치면[br]캐릭터 그림이 변경할 수 있고
 fox: 그 뒤에 다양한 부가설정을 할 수 있어.
+
+@wait 0.5
+@char miyo look:left
+
+@wait 0.5
+@char miyo look:right
+
+@wait 0.5
+miyo: 이번엔 배경을 한번 바꿔볼게!
+
+@back Forest time:1.0
+miyo: .[wait 0.5] .[wait 0.5] .
+
+@char miyo.Happy
+miyo: 짠![i] "@wait"를 쓰면 다음 행동에 대해 딜레이를 줄 수 있어!
+
+@char fox.Surprise
+fox: 오호?[i][br]그러면 행동과 행동 사이에 딜레이를 주고 싶을 때 쓰면 되겠군~
+
+@char miyo.Default
+miyo: 그럼~
+
 @stop
