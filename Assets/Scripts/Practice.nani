@@ -1,3 +1,5 @@
+#Start
+
 @bgm GrandFather
 @back Desert time:1.0
 
@@ -36,6 +38,7 @@ fox: 그 뒤에 다양한 부가설정을 할 수 있어.
 @wait 0.5
 miyo: 이번엔 배경을 한번 바꿔볼게!
 
+@sfx Biyong
 @back Forest time:1.0
 miyo: .[wait 0.5] .[wait 0.5] .
 
@@ -46,6 +49,50 @@ miyo: 짠![i] "@wait"를 쓰면 다음 행동에 대해 딜레이를 줄 수 있
 fox: 오호?[i][br]그러면 행동과 행동 사이에 딜레이를 주고 싶을 때 쓰면 되겠군~
 
 @char miyo.Default
-miyo: 그럼~
+miyo: 그럼~[i] 이번에는 분기를 만들어 보자! [i][br]일단 간단하게 한개만 만들어볼게.
+
+@choice "Hello World!" goto:.Hello
+
+@stop
+
+#Hello
+Hello World!
+
+@char fox.Pain
+fox: 엥?[i] 한개밖에 없어서 아쉬운걸?
+
+miyo: 이번엔 두가지 만들어볼게.
+
+@choice "좋은걸?" goto:.Good
+@choice "나쁘지 않네." goto:.NotBad
+
+@stop
+
+#Good
+
+@sfx Jump
+@char fox.Happy
+fox: 좋은걸?
+
+@goto .Next
+
+#NotBad
+
+@sfx Biyong
+@char fox.Confidence
+fox: 나쁘지 않네
+
+@goto .Next
+
+#Next
+
+@char fox.Default
+miyo: 이번엔 특수효과를 써볼거야!
+
+@spawn Rain
+
+fox: 비가 오네?
+
+@despawn Rain
 
 @stop
