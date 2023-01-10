@@ -1,6 +1,6 @@
-#Start
+# Start
 
-@bgm GrandFather
+@bgm GrandFather volume:0.1
 @back Desert time:1.0
 
 @char fox time:0.5
@@ -55,7 +55,7 @@ miyo: 그럼~[i] 이번에는 분기를 만들어 보자! [i][br]일단 간단�
 
 @stop
 
-#Hello
+# Hello
 Hello World!
 
 @char fox.Pain
@@ -63,12 +63,12 @@ fox: 엥?[i] 한개밖에 없어서 아쉬운걸?
 
 miyo: 이번엔 두가지 만들어볼게.
 
-@choice "좋은걸?" goto:.Good
+@choice 좋은걸? goto:.Good
 @choice "나쁘지 않네." goto:.NotBad
 
 @stop
 
-#Good
+# Good
 
 @sfx Jump
 @char fox.Happy
@@ -76,7 +76,7 @@ fox: 좋은걸?
 
 @goto .Next
 
-#NotBad
+# NotBad
 
 @sfx Biyong
 @char fox.Confidence
@@ -84,10 +84,10 @@ fox: 나쁘지 않네
 
 @goto .Next
 
-#Next
+# Next
 
 @char fox.Default
-miyo: 이번엔 특수효과를 써볼거야!
+miyo: 마지막으로 특수효과를 써볼거야!
 
 @spawn Rain
 
@@ -95,4 +95,8 @@ fox: 비가 오네?
 
 @despawn Rain
 
+@spawn Snow
+fox: 이번엔 눈이 오네?
+@char miyo.Happy
+miyo: 수고했어요~
 @stop
