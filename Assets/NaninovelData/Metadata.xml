@@ -389,7 +389,6 @@
       &lt;Constant&gt;
         &lt;Name&gt;Labels/Practice&lt;/Name&gt;
         &lt;Values&gt;
-          &lt;string&gt;Start&lt;/string&gt;
           &lt;string&gt;Hello&lt;/string&gt;
           &lt;string&gt;Good&lt;/string&gt;
           &lt;string&gt;NotBad&lt;/string&gt;
