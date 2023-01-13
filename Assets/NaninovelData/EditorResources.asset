@@ -174,38 +174,28 @@ MonoBehaviour:
     - name: Practice
       pathPrefix: Scripts
       guid: 024b43f7ca8407d479ea45fbcf327751
+    - name: test1
+      pathPrefix: Scripts
+      guid: 281e7b84e15c91b4e950212440bb848f
   - Id: Backgrounds/45fb4848-8bc6-41c4-b08f-9fdf0bfea448
     Resources:
-    - name: DemoTitle
-      pathPrefix: Backgrounds/MainBackground
-      guid: e4562e550f1f157469cf0659b4dcca7d
     - name: Desert
       pathPrefix: Backgrounds/MainBackground
       guid: 1e62a56f4388fe742946d92351f488b2
     - name: Forest
       pathPrefix: Backgrounds/MainBackground
       guid: ff78cfd5598639440bdf3b8ba11e935f
-  - Id: Characters/7b0457c7-2246-4d27-a279-c8a39fc58496
-    Resources:
-    - name: default
-      pathPrefix: Characters/Dajin
-      guid: c6c4267d7288fc14a8cae7ae24fb87f0
-  - Id: Characters/2ef173d5-69de-4707-a5ae-c58b0c7f817b
-    Resources:
-    - name: default
-      pathPrefix: Characters/Garim
-      guid: d56c3e238ba7a2745ab668a65808d484
   - Id: Audio
     Resources:
     - name: GrandFather
       pathPrefix: Audio
       guid: 0e1a2588163638b45ba983c66753e63f
+    - name: biyong
+      pathPrefix: Audio
+      guid: 1a96b8d91d02ffb48a2bfaa8d0f2d38d
     - name: Jump
       pathPrefix: Audio
       guid: c2bfb7a3b65621d42bec7fb6c6772bca
-    - name: Biyong
-      pathPrefix: Audio
-      guid: 1a96b8d91d02ffb48a2bfaa8d0f2d38d
   - Id: Movies
     Resources: []
   - Id: Characters/6545ed43-58f2-406c-8aaa-8c8c65bd2d6a
@@ -225,7 +215,24 @@ MonoBehaviour:
     - name: Confidence
       pathPrefix: Characters/fox
       guid: 39ceb81dcfef83744b6662f199acaff4
-  - Id: Characters/ff711edf-15ce-4c0a-9d51-0097044b79ce
+  - Id: Characters/01295f1d-abb5-48d9-a666-93721d9f24b6
+    Resources:
+    - name: Default
+      pathPrefix: Characters/fox
+      guid: 10011d48b8e1be34c9bce9f96c57d056
+    - name: Happy
+      pathPrefix: Characters/fox
+      guid: bb90d8a75c7d7a4468bc8c09d31013fa
+    - name: Pain
+      pathPrefix: Characters/fox
+      guid: efdd2e8d86d44454a88dd9c3ed8d9c87
+    - name: Surprise
+      pathPrefix: Characters/fox
+      guid: cedbc7bba86a9ff4ab3e52b3965fa199
+    - name: Confidence
+      pathPrefix: Characters/fox
+      guid: 39ceb81dcfef83744b6662f199acaff4
+  - Id: Characters/053b4dbb-0822-431c-be91-a629d054dd0a
     Resources:
     - name: Default
       pathPrefix: Characters/miyo
@@ -245,6 +252,3 @@ MonoBehaviour:
     - name: Confidence
       pathPrefix: Characters/miyo
       guid: 4c868c4db6ff4a348a07593de3241ce6
-    - name: Tail
-      pathPrefix: Characters/miyo
-      guid: 4949f42eaa1cf204fae11fbc517b9d6e
