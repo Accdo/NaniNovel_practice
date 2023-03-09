@@ -1,0 +1,13 @@
+@back landscape
+
+@char bear pos:70,20 scale:0.3
+곰: 하위!
+
+@char alien pos:25,25 scale:0.5
+alien: 하오~
+
+@spawn ShakeCharacter params:bear wait:true
+@spawn ShakeCharacter params:alien
+
+곰: 굳!
+@stop

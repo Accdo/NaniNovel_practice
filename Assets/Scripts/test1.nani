@@ -1,5 +1,108 @@
+@bgm GrandFather volume:0.1
 @back Desert
 
 @char fox
+fox: 안녕! 나는 여우야!
+
+@char fox.Happy
+fox: 만나서 반가워~
+
+@char fox.Surprise
+fox: 뭐?[i] 나니노벨을 알려달라고?
+
+@char fox.Default
+fox: 나니노벨을 잘 아는 친구를 소개해줄게.
+
+@char fox pos:80
+@sfx Jump
+@char miyo look:right pos:30
+
+miyo: 안녕! 나는 미요라고 해!
+miyo: 나니노벨의 기본적인 명령어를 알려줄게.
+miyo: "@back" 명령어는 배경그림 보여주고
+miyo: "@char" 명령어는 캐릭터를 인게임에 보여주는 명령어야.
+
+fox: 맞아~
+fox: 그리고 "@char 캐릭터 이름.그림이름"을 치면[br]캐릭터 그림을 변경할 수 있고
+fox: 그 뒤에 다양한 부가설정을 할 수 있어.
+
+@wait 0.5
+@char miyo look:left
+@wait 0.5
+@char miyo look:right
+@wait 0.5
+
+miyo: 이번엔 배경을 한번 바꿔볼게!
+@sfx biyong
+@back Forest time:2.0
+
+miyo: .[wait 0.5].[wait 0.5].
+
+@char miyo.Happy
+miyo: 짠![i] "@wait"를 쓰면 다음 행동에 대해 딜레이를 줄 수 있어!
+
+@char fox.Surprise
+fox: 오호?[i][br]그러면 행동과 행동 사이에 딜레이를 주고 싶을 때 쓰면 되겠군~
+
+@char miyo.Default
+miyo: 그럼~[i] 이번에는 분기를 만들어 보자! [i][br]일단 간단하게 한개만 만들어볼게.
+
+@choice "안녕" goto:.Hello
+@stop
+
+#Hello
+
+miyo: 안녕!
+
+@char fox.Pain
+fox: 엥?[i] 한개밖에 없어서 아쉬운걸?
+
+miyo: 이번엔 두가지 만들어볼게.
+
+@choice "좋은걸?" goto:.Good
+@choice "나쁘지 않네." goto:.NotBad
+@stop
+
+#Good
+@sfx Jump
+
+@char fox.Happy
+fox: 좋은걸?
+
+@goto .Next
+
+#NotBad
+@sfx biyong
+
+@char fox.Confidence
+fox: 나쁘지 않네.
+
+@goto .Next
+
+#Next
+@save
+@char fox.Default
+miyo: 마지막으로 특수효과를 써볼거야!
+
+@spawn Rain
+fox: 비가 오네?
+@despawn Rain
+
+@spawn Snow
+fox: 이번엔 눈이 오네?
+@despawn Snow
+
+miyo: 카메라 흔들기!
+@spawn ShakeCamera
+
+miyo: 대화창 흔들기!
+@spawn ShakePrinter
+
+miyo: 캐릭터 흔들기!
+@spawn ShakeCharacter params:miyo
+@spawn ShakeCharacter params:fox
+
+@char fox.Default
+fox: 오케이![i] 여기까지!
 
 @stop
